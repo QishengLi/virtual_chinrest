@@ -1,3 +1,3 @@
-# virtual_chinrest
+# The Virtual Chinrest
 JavaScript plug-in, data, and analysis code for Scientific Reports submission: Controlling for Participants’
 Viewing Distance in Large-Scale,Psychophysical Online Experiments Using a Virtual Chinrest
