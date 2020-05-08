@@ -4,4 +4,4 @@
 
 Open `example.html` in a web browser to see an example.
 
-Configuration data are stored in variable `data` which you can inspected via the console.
+Configuration data are stored in variable `data` which you can inspect via the console.
