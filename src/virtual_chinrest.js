@@ -113,8 +113,16 @@ function recordPosition(event, angle=13.5) {
         counter = counter - 1;
         $('#click').text(Math.max(counter, 0));
         if (counter <= 0) {
+
             ball.stop();
-            // You can DO SOMETHING HERE TO PROCEED TO YOUR NEXT STEPS OF THE EXPERIMENT. For example, add a button to go to the next page.
+
+            // Disable space key
+            $('html').bind('keydown', function(e)
+            {
+               if (e.keyCode == 32) {return false;}
+            });   
+
+            // You can then DO SOMETHING HERE TO PROCEED TO YOUR NEXT STEPS OF THE EXPERIMENT. For example, add a button to go to the next page.        
             return;
         }
 
