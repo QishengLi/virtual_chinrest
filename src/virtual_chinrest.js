@@ -120,7 +120,13 @@ function recordPosition(event, angle=13.5) {
             $('html').bind('keydown', function(e)
             {
                if (e.keyCode == 32) {return false;}
-            });   
+            });
+
+            // Display data
+            $('#info').css("visibility", "visible");
+            $('#info-h').append(data["viewDistance_mm"]/10)
+
+
 
             // You can then DO SOMETHING HERE TO PROCEED TO YOUR NEXT STEPS OF THE EXPERIMENT. For example, add a button to go to the next page.        
             return;
