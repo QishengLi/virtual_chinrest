@@ -104,7 +104,7 @@ function recordPosition(event, angle=13.5) {
         var ballPosLen = data["ballPosition"].length;
         data["avgBallPos"] = distanceSetup.round(sum/ballPosLen, 2);
         var ball_sqr_distance = (data["squarePosition"]-data["avgBallPos"])/data["px2mm"];
-        var viewDistance = ball_sqr_distance/Math.radians(angle)
+        var viewDistance = ball_sqr_distance/Math.tan(Math.radians(angle))
         console.log(Math.radians(angle))
         data["viewDistance_mm"] = distanceSetup.round(viewDistance, 2);
 
