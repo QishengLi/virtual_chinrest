@@ -78,6 +78,7 @@ function drawBall(pos=180){
 
 
 function animateBall(){
+    document.activeElement.blur();
     ball.animate(7000).during(
         function(pos){
             moveX = - pos*data['ballX'];
