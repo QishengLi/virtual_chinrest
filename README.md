@@ -2,6 +2,9 @@
 JavaScript plug-in, data, and analysis code for Scientific Reports submission: Controlling for Participants’
 Viewing Distance in Large-Scale,Psychophysical Online Experiments Using a Virtual Chinrest
 
+## jsPsych Plugin
+https://www.jspsych.org/plugins/jspsych-virtual-chinrest/
+
 ## Citation
 If you are interested in this work, please see our [research paper](https://www.nature.com/articles/s41598-019-57204-1) on Scientific Reports and consider citing our work:
 
